@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <meta="utf8">
+    <body>
+    <title>Golden shop</title>
+        <div class="text">
+        </div>
+<img src="images/bershka-logo.svg" height="100px">
+    
+        <style>
+        body {
+          background-image: url("images/Blucactus-Whats-Bershka-marketing-strategy-cover-page-1130x600-1.webp");
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+    </body>
+    <p><h2>Our store
+presents
+    berska chain of stores</h2></p>
+    <p></p>
+     <h2>please log in</h2>
+    <form action="data.php" method="get" name="myform">
+       <p><label>name <input type="text" placeholder="name"></label>
+        <p><label>surname <input type="text" placeholder="surname"></label>
+            <p><label>email <input type="text" placeholder="email"></label></p>
+        <p><label>password <input type="text" placeholder="password"></label></p>
+        <p><label>username <input type="text" placeholder="username"></label></p>
+        <p>are you an adult?</p> 
+        <lable><input type="radio">yes</lable> 
+         <lable><input type="radio">no</lable>
+        <p>
+            <input type="reset" value="clear">
+        <input type="button" value="sent">
+        </p>
+        </form>
+<p><h2>Below are the Bershka products</h2></p>
+    
+</html>
